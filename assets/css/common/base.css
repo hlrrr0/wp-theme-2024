@@ -1,0 +1,13 @@
+@charset "utf-8";
+:root {
+    --primary-color:#706350;
+    --secondary-color:#F8F2ED;
+    --accent-color:#D6B861;
+    --primary-font-color:#fff;
+    --secondary-font-color: #4E3729;
+}
+
+li {list-style: none;}
+.bg-main { background-color: var(--primary-color);color:var(--primary-font-color);}
+.bg-sub { background-color: var(--secondary-color);color: var(--secondary-font-color);}
+.bg-white { background-color: #fff;color: var(--secondary-font-color);}

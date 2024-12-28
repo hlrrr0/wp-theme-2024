@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* ======================================
+2019/09/09 added by sano
+======================================== */
+
+.table th, .table td {
+	border-bottom:1px #B9AC9C solid;
+	vertical-align:middle;
+	border-top:none;
+}
+
+.table-bordered th {
+	background-color:#C0B3A2;
+	text-align:left;
+	color:#433933;
+}
+.table-bordered th, .table-bordered td {
+	border: 1px solid #E8E2D6;
+	vertical-align:middle;
+}

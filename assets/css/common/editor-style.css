@@ -1,0 +1,88 @@
+@charset "utf-8";
+
+/* ////////////////////////////////////////////
+ *              editor-style.css
+ * //////////////////////////////////////////// */
+
+/* base
+------------------------------------------*/
+body {
+	margin: 10px;
+	line-height: 1.6;
+	font-size: 14px;
+	font-family: "Avenir", "Open Sans", "Helvetica Neue", "Helvetica", "Arial", "Verdana", "Roboto", "游ゴシック", "Yu Gothic", "游ゴシック体", "YuGothic", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "Meiryo UI", "メイリオ", "Meiryo", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	color: #222;
+}
+ul li {
+	list-style-type: disc;
+	list-style-position: inside;
+}
+ol li {
+	list-style-type: decimal;
+	list-style-position: inside;
+}
+table th,
+table td {
+	padding: 10px 20px;
+}
+h2 {
+	margin-top: 1rem;
+	margin-bottom: 1.3rem;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+h3 {
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+	font-size: 1.17rem;
+	font-weight: bold;
+}
+h4 {
+	margin-top: 1.3rem;
+	margin-bottom: 1.3rem;
+	font-size: 1rem;
+	font-weight: bold;
+}
+h5 {
+	margin-top: 1.67rem;
+	margin-bottom: 1.67rem;
+	font-size: 0.83rem;
+	font-weight: bold;
+}
+h6 {
+	margin-top: 2.33rem;
+	margin-bottom: 2.33rem;
+	font-size: 0.67rem;
+	font-weight: bold;
+}
+p {
+	margin-top: 0;
+	margin-bottom: 1rem;
+}
+
+/* template
+------------------------------------------*/
+.template {
+	padding: 20px;
+	background-color: #eaeaea;
+}
+
+/* googlemap
+------------------------------------------*/
+.googlemap {
+	position: relative;
+	padding: 100px 10px;
+	text-align: center;
+	background-color: #eaeaea;
+}
+.googlemap::after {
+	content: "※Googlemapが表示されます";
+	font-size: 2rem;
+	line-height: 1;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 100%;
+	margin-top: -1rem;
+	color: #999;
+}
